@@ -13,5 +13,7 @@ sns.kdeplot(df.loc[df['cyl'] == 8, "cty"], shade=True, color="orange", label="Cy
 
 # Decoration
 plt.title('Density Plot of City Mileage by n_Cylinders', fontsize=22)
-plt.legend()
+plt.xlabel('Density', fontsize=22)
+plt.ylabel('cty', fontsize=22)
+plt.legend(fontsize =22)
 plt.show()
